@@ -2,8 +2,8 @@ const getData = () => {
     $.ajax({
         url: "./assets/lista.json",
         data: "",
-        success: function (retorno) {
-            processData(retorno);
+        success: (data) => {
+            processData(data);
         },
         dataType: "html"
     });
@@ -11,7 +11,6 @@ const getData = () => {
 
 const processData = (data) => {
     const myData = JSON.parse(data);
-
     const myTable = $('.myTable');
 
     $(myData).each((index, value) => {
@@ -23,7 +22,6 @@ const processData = (data) => {
             <td><img class="images" src="${value.img}" alt=""></td>
         </tr>
         `;
-
         myTable.append(content);
     });
 }
@@ -43,7 +41,7 @@ const showModal = (model, type, img, link) => {
     const cardFooter = $('.modal-footer');
     let myButtons = `
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <a href="${link}" target="_blank"><button type="button" class="btn btn-primary">More Info</button></a>
+            <a href="${link}" target="_blank" class="btn btn-primary">More info</a>
         `;
     cardFooter.html(myButtons);
 
