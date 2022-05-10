@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "model": "Greenfield G1",
+        "type": "Steel",
+        "img": "https://www.greenfieldguitars.com/wp-content/uploads/2015/02/Greenfield_Imgs_Lookbook_G1_01.jpg",
+        "link": "https://www.greenfieldguitars.com/guitars/steel-strings/#g1"
+    },
+    {
+        "id": 2,
+        "model": "Greenfield Concert Classic",
+        "type": "Nylon",
+        "img": "https://www.greenfieldguitars.com/wp-content/uploads/2015/02/C1-Full-Front-Back.jpg",
+        "link": "https://www.greenfieldguitars.com/guitars/nylon-strings/"
+    },
+    {
+        "id": 3,
+        "model": "Greenfield Harp Guitar",
+        "type": "Steel-Harp",
+        "img": "https://www.greenfieldguitars.com/wp-content/uploads/2015/02/Greenfield_Imgs_Lookbook_Harp_01.jpg",
+        "link": "https://www.greenfieldguitars.com/guitars/steel-strings/#HG"
+    },
+    {
+        "id": 4,
+        "model": "Greenfield G4",
+        "type": "Steel",
+        "img": "https://www.greenfieldguitars.com/wp-content/uploads/2015/02/Greenfield_Imgs_Lookbook_G4_011.jpg",
+        "link": "https://www.greenfieldguitars.com/guitars/steel-strings/#g4"
+    }
+]

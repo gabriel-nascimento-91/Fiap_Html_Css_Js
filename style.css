@@ -1,0 +1,10 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.images {
+    max-width: 200px;
+    border-radius: 10px;
+}
